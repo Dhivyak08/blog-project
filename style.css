@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f8f4;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #ffffff;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.title {
+  color: #2e7d32;
+}
+
+.login-btn {
+  background: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: #e8f5e9;
+}
+
+.search-box input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #4caf50;
+}
+
+/* Blogs */
+.blogs {
+  padding: 20px;
+}
+
+.blog-card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+/* Admin */
+.card {
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  background: #2e7d32;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
